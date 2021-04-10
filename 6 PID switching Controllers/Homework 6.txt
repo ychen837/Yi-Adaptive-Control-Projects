@@ -1,0 +1,5 @@
+For the system of HW #2, design and implement indirect adaptive controllers (PID) and use adaptation switching to dynamically select the best one.
+
+Use "random" disturbances at the plant input, changes in the plant parameters, and transmission delays to study the behavior of the adaptive controller under perturbations.
+
+Compare the results against the response of a well-tuned controller, switching at a-priori known times.

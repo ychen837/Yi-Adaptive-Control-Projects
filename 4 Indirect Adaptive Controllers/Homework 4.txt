@@ -1,0 +1,10 @@
+For the systems of HW #2, design and implement indirect adaptive controllers (LQG, PPC) and direct MRC controllers and analyze their properties.
+
+Use the control objectives from HW#3 and controllers with integral action. Employ any suitable parameter estimator.  (You may try a few before selecting one.)
+
+Test the adaptive controllers with a low-frequency, pulse-train reference input.
+Use initial conditions for the parameter estimates that are 10-20% different from the target parameters.
+
+Compare the results against the response of a well-tuned, fixed controller.
+
+ 

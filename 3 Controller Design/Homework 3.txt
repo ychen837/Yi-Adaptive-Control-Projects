@@ -1,0 +1,18 @@
+For the systems of HW #2, design various controllers and analyze their properties.
+
+P1 = 1/(s^2+0.2s+0.01)
+P2 = (4s+25)/(s^2+6s+25)
+
+Consider controllers designed to achieve Pole-Placement (PPC), LQ (LQG), and Model-Reference (MRC) objectives.
+Tune the controllers such that the closed-loop bandwidth is roughly:
+
+ 1(rad/s) for P1(s)
+ open-loop bandwidth for P2(s).
+For the MRC, choose the reference model as a 1st or 2nd order transfer function with the indicated bandwidth and unity DC gain.
+
+For all controllers, study the magnitude of sensitivity and complementary sensitivity transfer functions.
+(Notice that in the MRC case there is significant freedom in the selection of the auxiliary filter.)
+
+Consider controllers with and without integral action.
+For each control law (PPC, LQG, MRC) select one design and develop a realization that is suitable
+for adaptive control implementation. In particular, for the MRC consider a realization that is suitable for direct adaptive control (control = linear combination of signals).

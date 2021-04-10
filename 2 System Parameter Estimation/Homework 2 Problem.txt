@@ -1,0 +1,9 @@
+Consider the system P1(s)=1/(s+0.1)^2 Write a linear parametrization and estimate its parameters from input-output data. Use:
+          1. PE input signals (e.g., input = random binary sequence (RBS), summation of several sinusoids, etc.)
+          2. Non-PE input signals (e.g., step, one sinusoid).
+Try different estimation algorithms and plot the estimation error and the parameter error. Discuss your findings.
+(In the interest of expediency, you may use reasonable discretization approximations)
+
+ 
+
+Repeat for the system P2(s) = [4s+25]/[s^2 + 6s +25]

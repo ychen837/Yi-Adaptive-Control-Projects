@@ -1,0 +1,11 @@
+For the systems of HW #4, design and implement
+
+sigma modification
+projection modification
+dead-zone modification
+
+for the indirect adaptive controllers (LQG, PPC) and direct MRC controllers
+
+Test the adaptive controllers the same reference input, adding a uniform random disturbance at the plant input. 
+
+Compare the results against the response of a well-tuned, fixed controller.

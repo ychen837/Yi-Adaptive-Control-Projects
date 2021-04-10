@@ -1,0 +1,1 @@
+For the adaptive control systems of HW #4,5, design and simulate a bursting scenario with a bounded disturbance of amplitude 0.1 entering at the summation node between the two coprime factors. Compare the results with a well-designed, fixed controller.
